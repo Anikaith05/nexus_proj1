@@ -4,7 +4,7 @@
 
 This project is an educational exploration into the fundamentals of machine learning. It features implementations of several core algorithms from scratch using Python and NumPy, demonstrating the underlying mechanics of each model. The goal is to build, train, test, and save these models for basic predictive tasks.
 
-## ✨ Features
+##--> Features
 
 * Custom implementation of **Linear Regression** from scratch.
 * Custom implementation of **K-Nearest Neighbors (KNN)** for classification.
@@ -12,6 +12,6 @@ This project is an educational exploration into the fundamentals of machine lear
 * Scripts for training, evaluating, and saving each model.
 * Clean, organized, and scalable project structure.
 
-## 📂 Project Structure
+##--> Project Structure
 
 The repository is organized to separate the model logic from the training/testing scripts.
