@@ -38,6 +38,6 @@ This project contains Python implementations of three fundamental machine learni
 
 You can train each model by running its corresponding `test-` script. These scripts use sample datasets from `scikit-learn` to train the models and then save the trained models to `.pkl` files using `pickle`.
 
-**Train KNN Model:**
+**example-Train KNN Model:**
 ```bash
 python test-knn.py
