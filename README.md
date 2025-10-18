@@ -7,9 +7,17 @@ This project contains Python implementations of three fundamental machine learni
 * **Logistic Regression:** A model for binary classification, also implemented using gradient descent.
 
 ## Project Structure
-
-The repository is organized as follows:
-. ├── knn.py # Class implementation for K-Nearest Neighbors ├── linear_regression.py # Class implementation for Linear Regression ├── logistic_regression.py # Class implementation for Logistic Regression ├── test-knn.py # Training and evaluation script for KNN ├── test-linear-regression.py # Training script for Linear Regression ├── test-logistic-regression.py # Training script for Logistic Regression ├── knn_model.pkl # Saved/serialized KNN model ├── linear_regression_model.pkl # Saved/serialized Linear Regression model ├── logistic_regression_model.pkl # Saved/serialized Logistic Regression model ├── requirements.txt # Project dependencies └── README.md # This file
+├── knn.py                    # Class implementation for K-Nearest Neighbors
+├── linear_regression.py      # Class implementation for Linear Regression
+├── logistic_regression.py    # Class implementation for Logistic Regression
+├── test-knn.py               # Training and evaluation script for KNN
+├── test-linear-regression.py # Training script for Linear Regression
+├── test-logistic-regression.py # Training script for Logistic Regression
+├── knn_model.pkl             # Saved/serialized KNN model
+├── linear_regression_model.pkl # Saved/serialized Linear Regression model
+├── logistic_regression_model.pkl # Saved/serialized Logistic Regression model
+├── requirements.txt          # Project dependencies
+└── README.md                 # This file
 ## Setup
 
 1.  **Clone the repository:**
