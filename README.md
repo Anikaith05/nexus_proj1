@@ -1,17 +1,33 @@
-# Nexus Project 1: Machine Learning Models from Scratch
+# Machine Learning Algorithms from Scratch
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)
+This project contains Python implementations of three fundamental machine learning algorithms built from scratch using only NumPy for the core logic.
 
-This project is an educational exploration into the fundamentals of machine learning. It features implementations of several core algorithms from scratch using Python and NumPy, demonstrating the underlying mechanics of each model. The goal is to build, train, test, and save these models for basic predictive tasks.
+* **K-Nearest Neighbors (KNN):** A non-parametric algorithm for classification.
+* **Linear Regression:** A statistical model for regression, implemented using gradient descent.
+* **Logistic Regression:** A model for binary classification, also implemented using gradient descent.
 
-##--> Features
+## Project Structure
 
-* Custom implementation of **Linear Regression** from scratch.
-* Custom implementation of **K-Nearest Neighbors (KNN)** for classification.
-* Custom implementation of **Logistic Regression** for classification.
-* Scripts for training, evaluating, and saving each model.
-* Clean, organized, and scalable project structure.
+The repository is organized as follows:
+. ├── knn.py # Class implementation for K-Nearest Neighbors ├── linear_regression.py # Class implementation for Linear Regression ├── logistic_regression.py # Class implementation for Logistic Regression ├── test-knn.py # Training and evaluation script for KNN ├── test-linear-regression.py # Training script for Linear Regression ├── test-logistic-regression.py # Training script for Logistic Regression ├── knn_model.pkl # Saved/serialized KNN model ├── linear_regression_model.pkl # Saved/serialized Linear Regression model ├── logistic_regression_model.pkl # Saved/serialized Logistic Regression model ├── requirements.txt # Project dependencies └── README.md # This file
+## Setup
 
-##--> Project Structure
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
+    cd your-repository-name
+    ```
 
-The repository is organized to separate the model logic from the training/testing scripts.
+2.  **Install the required dependencies:**
+    It is recommended to use a virtual environment.
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+You can train each model by running its corresponding `test-` script. These scripts use sample datasets from `scikit-learn` to train the models and then save the trained models to `.pkl` files using `pickle`.
+
+**Train KNN Model:**
+```bash
+python test-knn.py
